@@ -1,0 +1,26 @@
+.text-center {
+  text-align: center;
+}
+.mx-auto {
+  margin: auto;
+}
+/* set the Calculator block */
+.flex {
+  display: flex;
+  background-image: linear-gradient(
+    90deg,
+    rgba(203, 202, 216, 1) 0%,
+    rgba(229, 236, 235, 0.8550770650056898) 15%,
+    rgba(217, 224, 225, 1) 100%
+  );
+  border-radius: 15px;
+  height: 450px;
+  width: 350px;
+}
+.flex-col {
+  flex-direction: column;
+}
+.item-center {
+  align-items: center;
+  justify-content: center;
+}

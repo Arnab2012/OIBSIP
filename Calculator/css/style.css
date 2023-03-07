@@ -1,0 +1,47 @@
+/* CSS Reset */
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(
+    109.6deg,
+    rgb(31, 179, 237) 11.2%,
+    rgb(17, 106, 197) 91.1%
+  );
+  font-family: "Fira Sans", sans-serif;
+}
+/* for the buttons */
+#button {
+  padding: 15px;
+  margin: 0 2px;
+  border: 2px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.symbol {
+  width: 50px;
+  background: #7cb9e8;
+}
+.number {
+  width: 50px;
+  background: #E0FFFF;
+}
+.mid-width {
+  width: 120px;
+  background: #0000FF;
+}
+
+/* to set the rows of buttons */
+.row {
+  margin: 10px 0;
+}
+/* to set the input text bar */
+.row input {
+  width: 295px;
+  font-size: 19px;
+  margin: 0;
+  padding: 10px 0;
+  border: 2px solid black;
+  border-radius: 8px;
+  background: #E0FFFF;
+}

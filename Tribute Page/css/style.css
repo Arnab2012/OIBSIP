@@ -1,0 +1,96 @@
+/* CSS Reset */
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+}
+body, html {
+  height: 100%;
+}
+
+.content {
+  width: 100%;
+  margin: 0 auto;
+  background: url("Background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.header_section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_section h1 {
+  font-size: 40px;
+  font-family: "Covered By Your Grace";
+  font-weight: bold;
+  color: black;
+  margin-right: 100px;
+}
+.header_section h4 {
+  font-size: 20px;
+  text-align: end;
+  margin-right: 100px;
+}
+.profile {
+  border-radius: 50%;
+  overflow: hidden;
+  margin-left: 50px;
+}
+.profile,
+img {
+  width: 280px;
+  height: 300px;
+}
+.about_section {
+  margin-top: 30px;
+  margin-left: 25px;
+}
+.about_section h2 {
+  font-family: 'Chewy';
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+.about_section p {
+  font-family: 'Cormorant Upright';
+  font-size: 25px;
+  font-weight: bolder;
+  line-height: 20px;
+  letter-spacing: 1px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.achievements_section {
+  margin-top: 30px;
+  margin-left: 25px;
+}
+.achievements_section h2 {
+  font-family: 'Chewy';
+  font-size: 35px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+.achievements_section ul h3 {
+  font-family: 'Chewy';
+  font-size: 20px;
+  font-weight: bolder;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+.achievements_section ul li {
+  font-family: 'Cormorant Upright';
+  margin-left: 5px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+footer {
+  margin: 50px 0;
+}
+footer p {
+  font-family: 'Cormorant Upright';
+  font-weight: bold;
+  text-align: end;
+}

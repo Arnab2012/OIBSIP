@@ -1,0 +1,160 @@
+/* CSS Reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(100deg, #84fab0 0%, #8fd3f4 100%);
+}
+
+/* For Header Section */
+header {
+  background-color: #f1be24;
+  margin: auto;
+  /* width: 98vw; */
+  padding: 10px 20px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+header h4 {
+  text-align: center;
+  color: white;
+  font-size: x-large;
+  font-weight: 200;
+  font-family: "McLaren", cursive;
+}
+
+/* Notes Section */
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.tasks {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  width: 300px;
+  margin: 16px;
+  /* margin-right: 160px; */
+  /* float: left; */
+}
+/* Enter Task Section */
+.title1 {
+  border-radius: 5px;
+  height: 38px;
+  width: 280px;
+}
+.desc1 {
+  margin-top: 5px;
+  border-radius: 5px;
+  height: 38px;
+  width: 280px;
+}
+/* Added Tasks will appear here */
+.tasksList {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 10px;
+  width: 300px;
+  margin: 7px;
+  margin-right: 180px;
+  /* float: left; */
+}
+
+/* After creation of tasks */
+.note {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  justify-content: space-between;
+  align-items: center;
+  width: 40vw;
+  border: 0.5px solid black;
+  border-radius: 5px;
+}
+.t1,
+.b1 {
+  height: 10vmin;
+  width: 5vw;
+}
+.d1{
+  width: 30vw;
+  height: 10vmin;
+  max-height: 10vmin; 
+  overflow: auto; 
+  word-wrap: break-word;
+}
+
+
+/* Button Section */
+
+/* Create Button */
+.createbtn {
+  background-color: #4caf50;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 8px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.createbtn:hover {
+  color: black;
+  background-color: rgb(41, 153, 41);
+}
+
+/* Remove Button */
+.remove {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.removebtn {
+  font-weight: 200;
+  font-family: "McLaren", cursive;
+  background-color: #f44336;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.removebtn:hover {
+  color: black;
+  background-color: rgb(219, 52, 52);
+}
+/* Note Button */
+.note button {
+  background-color: #f44336;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 5px 15px;
+  /* text-align: right; */
+  text-decoration: none;
+  /* display: inline-block; */
+  margin-right: 0px;
+  font-size: 15px;
+  margin-top: 5px;
+  cursor: pointer;
+  flex-shrink: 0;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/utils.css" />
+    <title>To Do List</title>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <h4>To Do List</h4>
+    </header>
+
+    <!-- Notes Section -->
+    <div class="container">
+      <div class="tasks">
+        <label for="Title"></label>
+        <input type="text" id="title" class="title1" placeholder="Title" />
+
+        <label for="Desc"></label>
+        <textarea
+        cols="5"
+          rows="10"
+          id="desc"
+          class="desc1"
+          placeholder="Description"
+        ></textarea>
+        <button class="createbtn">Save</button>
+      </div>
+
+      <div class="tasksList">
+        <!-- Tasks will be added dynamically here -->
+      </div>
+    </div>
+    <div class="remove">
+      <button class="removebtn">Remove All</button>
+    </div>
+
+    <!-- include js file -->
+    <script src="js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+/* For screens up to 768px wide */
+@media screen and (max-width: 1168px) {
+  .note{
+    /* width: 700px; */
+    flex-direction: column;
+  }
+  .tasks{
+    margin-right: 140px;
+  }
+  .tasksList{
+    margin-left: 130px;
+  }
+}
+@media screen and (max-width: 896px) {
+  .note{
+    /* width: 700px; */
+    flex-direction: column;
+  }
+  .tasks{
+    margin-right: 190px;
+  }
+  .tasksList{
+    margin-left: 90px;
+  }
+}
